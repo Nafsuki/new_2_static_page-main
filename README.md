@@ -16,8 +16,8 @@
 ⚡️ Mobile first, responsive design\
 ⚡️ Hover effects\
 ⚡️ Implemented Modal when buttons are clicked\
-⚡️ Confirmation Modal when send button is clicked\ 🆕🔺
-⚡️ Closing modal when confirmation box is clicked 🆕🔺
+⚡️ Confirmation Modal when send button is clicked 🆕✨\
+⚡️ Closing modal when confirmation box is clicked 🆕✨
 
 If I had more time... => DONE ✅
 - I would make another modal to say 'Your message was sent' when 'send' button is clicked
