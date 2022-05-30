@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<script
+			src="https://kit.fontawesome.com/9c8d890750.js"
+			crossorigin="anonymous"
+		></script>
+		<link href="style.css" rel="stylesheet" />
+		<title>Detailpage</title>
+	</head>
+	<body>
+		<main>
+			<!-- Modal message was sent box -->
+			<div class="modal-confirmation" id='modal-confirmation'>
+				<h2 class="modal" onclick='closeModal()'>Your message was sent</h2>
+			</div>
+			<!-- Modal -->
+			<div class='modal-container' id='modal-container'>
+				<!-- Modal message box -->
+				<div class='modal' id='modal'>
+					<div class='modal-header'>
+						<h2 class='contact'>Contact</h2>
+					</div>
+					<div class="modal-content">
+						<div class='email-form'>
+						<form for='email' id="email-label"></form>
+						<!-- Email address -->
+						<input type="text" class='email' id='email' placeholder='Sender Email Address'>
+					</div>
+
+					<!-- Message -->
+					<div class='message-form'>
+						<form id='message'></form>
+						<textarea type="text" name='message' form='message' placeholder='Message'></textarea>
+					</div>
+					<button id='submit' onClick='showConfirmation()'>Send</button>
+				</div>
+		</div>
+
+			</div>
+			<!-- Back to Result Link -->
+			<header>
+				<a class="back-to-result" href="/result">
+					<img
+						class="arrow-left"
+						src="./arrow-left-long-solid.svg"
+						alt="arrow left"
+					/>
+					Back to result page</a
+				>
+			</header>
+			<div class='container'>
+			<!-- Ad Listing Component -->
+			<div class='section-left'>
+				<section>
+					<h1>Ad listing name</h1>
+					<div class="img-container">
+						<img class="mock-image" src="./mock-image.png" alt="image" />
+					</div>
+
+					<article>
+						<h2>Description</h2>
+						<hr />
+						<p>
+							Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+							Recusandae illum, repellendus quas earum ratione vel optio velit
+							libero at natus? Cupiditate nostrum tempore consequuntur ratione
+							nisi officiis architecto, repudiandae fuga?
+						</p>
+					</article>
+				</section>
+
+				<!-- write message box bottom -->
+				<footer>
+					<p>Write a message</p>
+					<hr />
+					<button id='button1' onclick='showModal()'>
+						<i class="fa fa-envelope-o" aria-hidden="true"></i>Write message
+					</button>
+				</footer>
+			</div>
+
+			<!-- write message / right side -->
+			<aside class='section-right'>
+				<button id='button2' onclick='showModal()'>
+					<i class="fa fa-envelope-o" aria-hidden="true"></i>Write message
+				</button>
+			</aside>
+		</main>
+	</div>
+
+		<script src="./script.js"></script>
+	</body>
+</html>
